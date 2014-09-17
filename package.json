@@ -1,6 +1,6 @@
 {
   "name": "ember-resize-mixin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "directories": {
     "doc": "doc",
     "test": "test"
@@ -10,7 +10,7 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/stefanpenner/ember-cli",
+  "repository": "https://github.com/taras/ember-resize-mixin.git",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -20,7 +20,7 @@
   "ember-addon": {
     "configPath": "tests/dummy/config"
   },
-  "author": "",
+  "author": "Taras Mankovski",
   "license": "MIT",
   "devDependencies": {
     "body-parser": "^1.2.0",
