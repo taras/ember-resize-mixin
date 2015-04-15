@@ -66,9 +66,11 @@ export default Ember.Mixin.create({
    * @private
    */
   _endResize: function (event) {
-    this.set('resizing', false);
-    if (this.has('resizeEnd')) {
-      this.trigger('resizeEnd', event);
+    if (!this.get('isDestroyed')) {
+      this.set('resizing', false);
+      if (this.has('resizeEnd')) {
+        this.trigger('resizeEnd', event);
+      }
     }
   }
 });
